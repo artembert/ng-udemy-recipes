@@ -13,7 +13,7 @@ export class ShoppingListComponent implements OnInit {
   ];
   constructor() { }
 
-  ngOnInit() {
+  public ngOnInit(): void {
   }
 
 }
