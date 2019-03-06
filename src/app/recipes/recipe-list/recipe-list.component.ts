@@ -7,14 +7,14 @@ import {Recipe} from '../recipie.model';
   styleUrls: ['./recipe-list.component.less']
 })
 export class RecipeListComponent implements OnInit {
-  recipes: Array<Recipe> = [
+  public recipes: Array<Recipe> = [
     new Recipe('A Test Recipe', 'Just a description to test recipe', 'https://via.placeholder.com/50'),
     new Recipe('A Second Test Recipe', 'Just a description to second test recipe', 'https://via.placeholder.com/50'),
   ];
 
   constructor() { }
 
-  ngOnInit() {
+  public ngOnInit(): void {
   }
 
 }
