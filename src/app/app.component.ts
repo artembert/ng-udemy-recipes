@@ -11,4 +11,5 @@ export class AppComponent {
     public onNavigate(feature: string): void {
         this.loadedFeature = feature;
     }
+
 }
